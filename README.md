@@ -30,12 +30,8 @@ Schrijf de volgende methodes:
 - `void AddCustomer(BankAccount account)`: Voegt een nieuwe klant toe.
 - `double ShowBankCapital()`: Geeft het totale saldo van de bank.
 
-**Code in `Main`**:
-Haal de code voor Opdracht 3 in de `Main` methode uit commentaar om je oplossing te testen.
-
-<img src= "images/Opdracht3.png" style="border: 2px solid grey;"/>
-
 > [!NOTE]
 > Bonusopdracht:
 - Voeg validatie toe zodat `AccountNumber` altijd begint met "BE" en exact 12 cijfers bevat.
+- Voeg een eigenschap `Type` toe aan de class `Transaction` die een D (Debet = geld storten) of C (credit = geld afhalen) bevat. 
 - Voeg een `ToString()` methode toe aan `BankAccount` die de eigenaar en het saldo weergeeft.
